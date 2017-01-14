@@ -7,12 +7,12 @@ Asignatura de segundo curso en la que se estudian los conceptos básicos de base
 
 Para el desarrollo de las prácticas usaremos:
 
- 1. **MariaDB** como servicio que lanzará la bases de datos.
- 2. **DBeaver** como cliente con el que nos conectaremos a la base de datos para desarrollar las prácticas.
+ 1. **[MariaDB](https://mariadb.org/)** como servicio que lanzará la bases de datos.
+ 2. **[DBeaver](http://dbeaver.jkiss.org/)** como cliente con el que nos conectaremos a la base de datos para desarrollar las prácticas.
  
  
 
-MariaDB
+**MariaDB**
 =======
 
 ----------
@@ -45,13 +45,68 @@ Una vez hayas importado la clave y añadido el repositorio, puedes instalar Mari
 
     sudo apt install mariadb-server
 
-Para lanzar la base de datos usa:
+4. Manual de usuario
+--------------------
+
+Para **lanzar** la base de datos usa:
 
     sudo service mariadb start
-Para detener la base de datos usa:
+Para **detener** la base de datos usa:
 
     sudo service mariadb stop
-Para ver el estado de la base de datos usa:
+Para ver el **estado** de la base de datos usa:
 
     sudo service mariadb status
 
+**DBeaver**
+=======
+----------
+
+1. Descripción del programa
+---------------------------
+
+DBeaver será el IDE que usaremos para conectarnos a la base de datos y poder interactuar con ella.
+
+ 2. Requisitos hardware
+----------------------
+Tener 512MB de RAM libres.
+
+ 3. Gía de instalación
+---------------------
+
+ - Descarga el archivo de instalación que necesites para tu OS desde la [página oficial](http://dbeaver.jkiss.org/download/).
+ - Instalación:
+
+**Windows** 	
+
+    Ejecuta el intalador.
+
+ 
+**Debian**  
+
+    sudo dpkg -i dbeaver-<version>.deb
+
+ 
+ **RPM**
+ 
+
+     sudo rpm -ivh dbeaver-<version>.rpm
+
+> **Nota:**
+> Requiere Java 1.7 o superior instalado
+> Existe versión para windows con JRE incluido
+> Si estás en Ubuntu prueba *sudo apt-get install default-jdk*
+
+4. Estructura del programa
+--------------------------
+Capturas
+
+**Manual de usuario**
+=================
+Capturas
+
+**Anexos**
+======
+
+ - [Guía de instalación](https://downloads.mariadb.org/mariadb/repositories) oficial de MariaDB.
+ - Consejos de instalación de la [página de descargas](http://dbeaver.jkiss.org/download/) oficial de DBeaver.

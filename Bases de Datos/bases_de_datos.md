@@ -124,6 +124,7 @@ Una vez instalados servidor y cliente, tendremos que realizar algunos pasos para
 	- **Password**: (contraseña elegida durante la instalación de MariaDB).
 
 		> El resto de campos se dejan como están.
+
 	![Ejemplo de conexión](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Bases%20de%20Datos/images/entorno003.png?raw=true)
 
 4. Hacemos click en **Test connection...** para ver si hemos cometido algún error.

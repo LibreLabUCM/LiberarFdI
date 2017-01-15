@@ -96,14 +96,47 @@ Tener 512MB de RAM libres.
 > Requiere Java 1.7 o superior instalado
 > Existe versión para windows con JRE incluido
 > Si estás en Ubuntu prueba *sudo apt-get install default-jdk*
+> o fuerza la instalación de dependencias con *sudo apt-get -f install*
 
 4. Estructura del programa
 --------------------------
-Capturas
+
 
 **Manual de usuario**
 =================
-Capturas
+Una vez instalados servidor y cliente, tendremos que realizar algunos pasos para poder empezar a trabajar con ello.
+
+1. Crear una base de datos en MariaDB. Para eso nos conectamos con una terminal y ejecutamos lo siguiente:
+
+    mysql -u root -p
+
+	![Creando base de datos como root](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Bases%20de%20Datos/images/entorno001.png?raw=true)
+	El parámetro -u **root** lo usamos para conectarnos con el usuario **root** que es el administrador y así poder crear la base de datos en el sistema. Y el parámetro -p para que nos solicite la contraseña.
+
+2. Abrimos DBeaver y creamos una nueva conexión: file> new> new connection y seleccionamos MariaDB.
+![Creando nueva conexión](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Bases%20de%20Datos/images/entorno002.png?raw=true)
+
+3. Rellenamos los datos que nos piden:
+	- **Server Host**: *localhost* (nos conectamos al servicio local)
+ de MariaDB).
+	- **Database**: *libreLab* (nombre que elegimos en el punto 1).
+	- **User name**: *root*
+	- **Password**: (contraseña elegida durante la instalación de MariaDB).
+
+		> El resto de campos se dejan como están.
+	![Ejemplo de conexión](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Bases%20de%20Datos/images/entorno003.png?raw=true)
+
+4. Hacemos click en **Test connection...** para ver si hemos cometido algún error.
+	
+	Si nos dice que debemos instalar los drivers para poder realizar la conexión, hacemos click en **Download**.
+	![Probar debidamente la conexión](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Bases%20de%20Datos/images/entorno004.png?raw=true)
+	Y volvemos a comprobar con **Test connection...** que la conexión se realiza correctamente.
+	
+	Click en **Next >** y **Finish**.
+	
+5. Con la conexión realizada ya puedes empezar con las prácticas. Crear, insertar y ejecutar consultas.
+![Prueba de consultas SQL](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Bases%20de%20Datos/images/entorno005.png?raw=true)
+
 
 **Anexos**
 ======

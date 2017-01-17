@@ -94,3 +94,5 @@ Después instalamos GTKWave desde este [enlace](http://gtkwave.sourceforge.net/g
 
 
  - [Ficha docente](http://www.fdi.ucm.es/Pub/ImpresoFichaDocente.aspx?Id=905) de la asignatura.
+
+ [Volver al repositorio principal.](https://github.com/LibreLabUCM/LiberarFdI/)

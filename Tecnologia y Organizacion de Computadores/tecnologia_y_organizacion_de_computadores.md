@@ -10,10 +10,12 @@ Se puede usar sin problemas en cualquier ordenador.
 ###**3. Guía de instalación**
 - **Linux**
 
-Para poder instalar GHDL, en Debian 7, hay que descargarse la distribución: 
+Para poder instalar GHDL, en Debian 7, hay que descargarse la distribución:
+
 https://sourceforge.net/projects/ghdl-updates/files/Builds/ghdl-0.31/Debian/ghdl_0.31-2wheezy1_amd64.deb/download
 
 Para Debian 8 el siguiente enlace:
+
 https://sourceforge.net/projects/ghdl-updates/files/Builds/ghdl-0.33/debian/ghdl_0.33-1jessie1_amd64.deb/download 
 
 Cuando se ha descargado es posible que tengamos que instalar varios paquetes para poder instalar la distribución. La primera línea instala esos paquetes, la segunda la distribución (en este caso la de Debian 7):
@@ -32,20 +34,27 @@ Ahora instalamos GTKWave:
  - **Windows**
 
 Instalamos GHDL a través de este enlace y ejecutamos el instalador:
+
 http://ghdl.free.fr/ghdl-installer-0.29.1.exe
 
 Instalamos GTKWave a través de este enlace y ejecutamos el instalador:
+
 https://sourceforge.net/projects/gtkwave/files/latest/download?source=typ_redirect
 
 ----------
 
  - **MacOS**
 
-Instalamos GHDL a través de este enlace: https://github.com/tgingold/ghdl/releases/download/v0.33/ghdl-0.33-llvm-darwin13.pkg
+Instalamos GHDL a través de este enlace: 
 
-	Es posible que no deje ejecutar la instalación, si es así, entonces vamos a “Preferencias del Sistema” → Seguridad y privacidad y abajo nos saldrá un mensaje para autorizar ese paquete y lo instalamos.
+https://github.com/tgingold/ghdl/releases/download/v0.33/ghdl-0.33-llvm-darwin13.pkg
+
+	Es posible que no deje ejecutar la instalación, si es así, 
+	entonces vamos a “Preferencias del Sistema” → Seguridad y privacidad 
+	y abajo nos saldrá un mensaje para autorizar ese paquete y lo instalamos.
 
 Después instalamos GTKWave:
+
 http://gtkwave.sourceforge.net/gtkwave.zip
 
 

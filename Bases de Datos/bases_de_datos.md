@@ -93,13 +93,11 @@ Tener 512MB de RAM libres.
      sudo rpm -ivh dbeaver-<version>.rpm
 
 > **Nota:**
-> Requiere Java 1.7 o superior instalado
-> Existe versión para windows con JRE incluido
-> Si estás en Ubuntu prueba *sudo apt-get install default-jdk*
-> o fuerza la instalación de dependencias con *sudo apt-get -f install*
+> Requiere Java 1.7 o superior instalado.
+> Existe versión para windows con JRE incluido.
+> Si estás en Ubuntu prueba *sudo apt-get install default-jdk*.
+> o fuerza la instalación de dependencias con *sudo apt-get -f install*.
 
-4. Estructura del programa
---------------------------
 
 
 **Manual de usuario**
@@ -108,7 +106,9 @@ Una vez instalados servidor y cliente, tendremos que realizar algunos pasos para
 
 1. Crear una base de datos en MariaDB. Para eso nos conectamos con una terminal y ejecutamos lo siguiente:
 
-    mysql -u root -p
+    	mysql -u root -p
+    	CREATE DATABASE nombreBaseDatos;
+    En este caso nombreBaseDatos será libreLab.	
 
 	![Creando base de datos como root](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Bases%20de%20Datos/images/entorno001.png?raw=true)
 	El parámetro -u **root** lo usamos para conectarnos con el usuario **root** que es el administrador y así poder crear la base de datos en el sistema. Y el parámetro -p para que nos solicite la contraseña.
@@ -117,8 +117,7 @@ Una vez instalados servidor y cliente, tendremos que realizar algunos pasos para
 ![Creando nueva conexión](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Bases%20de%20Datos/images/entorno002.png?raw=true)
 
 3. Rellenamos los datos que nos piden:
-	- **Server Host**: *localhost* (nos conectamos al servicio local)
- de MariaDB).
+	- **Server Host**: *localhost* (nos conectamos al servicio local) de MariaDB).
 	- **Database**: *libreLab* (nombre que elegimos en el punto 1).
 	- **User name**: *root*
 	- **Password**: (contraseña elegida durante la instalación de MariaDB).
@@ -144,3 +143,6 @@ Una vez instalados servidor y cliente, tendremos que realizar algunos pasos para
 
  - [Guía de instalación](https://downloads.mariadb.org/mariadb/repositories) oficial de MariaDB.
  - Consejos de instalación de la [página de descargas](http://dbeaver.jkiss.org/download/) oficial de DBeaver.
+
+
+ [Volver al repositorio principal.](https://github.com/LibreLabUCM/LiberarFdI/)

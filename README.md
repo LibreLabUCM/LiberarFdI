@@ -8,7 +8,7 @@ PRIMERO
 
 ----------
 
- - Fundamentos de la Programación
+ - [Fundamentos de la Programación](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Fundamentos%20de%20la%20Programacion/fundamentos_programacion.md)
  - Fundamentos de los Computadores
 
 SEGUNDO

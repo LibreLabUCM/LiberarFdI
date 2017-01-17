@@ -63,7 +63,7 @@ URL: http://pencil.evolus.vn/Downloads.html
 
 Tras la descarga lo ejecutamos, aceptamos los términos de uso y después seleccionamos donde queremos instalar el programa.
 
-imagen1
+![](https://github.com/LibreLabUCM/LiberarFdI/blob/master/DESARROLLO%20DE%20SISTEMAS%20INTERACTIVOS/imagenes/Captura1.PNG)
 
 Después de esto solo necesitamos ejecutarlo.
 
@@ -75,7 +75,8 @@ Después de esto solo necesitamos ejecutarlo.
 
 Para la versión de ubuntu que es el sistema operativo que hemos elegido para la distribución de linux, tendremos que descargar la versión señalada  a continuación: 
 
-imagen2
+
+![](https://github.com/LibreLabUCM/LiberarFdI/blob/master/DESARROLLO%20DE%20SISTEMAS%20INTERACTIVOS/imagenes/Captura2.PNG)
 
 La versión evoluspencil_2.0.5_all.deb también es compatible con versiones anteriores.
 
@@ -85,11 +86,13 @@ Después ejecutamos el comando:
 
 > sudo dpkg -i evoluspencil_2.0.5_all.deb
 
-imagen3
+
+![](https://github.com/LibreLabUCM/LiberarFdI/blob/master/DESARROLLO%20DE%20SISTEMAS%20INTERACTIVOS/imagenes/Captura3.PNG)
 
 Podemos buscar la aplicación para iniciarla y comprobar que se instaló satisfactoriamente.
 
-imagen4
+
+![](https://github.com/LibreLabUCM/LiberarFdI/blob/master/DESARROLLO%20DE%20SISTEMAS%20INTERACTIVOS/imagenes/Captura4.PNG)
 
 
 4. Estructura del programa
@@ -97,29 +100,34 @@ imagen4
 ----------
 Nos encontramos con esta vista en los dos sistemas operativos, este será el espacio de trabajo sobre el que iremos creando nuevas páginas o duplicando las que ya tenemos.
 
-imagen5
+![](https://github.com/LibreLabUCM/LiberarFdI/blob/master/DESARROLLO%20DE%20SISTEMAS%20INTERACTIVOS/imagenes/Captura5.PNG)
 
 5. Manual de usuario
 --------------------
 ----------
 Para crear un nuevo proyecto o exportar e importar proyectos seleccionaremos Document y la opción que queramos.
 
-imagen6
+
+![](https://github.com/LibreLabUCM/LiberarFdI/blob/master/DESARROLLO%20DE%20SISTEMAS%20INTERACTIVOS/imagenes/Captura6.PNG)
 
 Tras crear el nuevo proyecto añadiremos los componentes que queramos sobre el workspace arrastrandolos desde el panel de la izquierda, en este caso hemos escogido un móvil y una tablet android.
 
 Cada panel que añadimos tiene su propiedades según las cuales se nos permitirá cambiar unas cosas u otras.
 
-imagen7
+
+![](https://github.com/LibreLabUCM/LiberarFdI/blob/master/DESARROLLO%20DE%20SISTEMAS%20INTERACTIVOS/imagenes/Captura7.PNG)
 
 Un ejemplo de iteración puede ser una búsqueda para la cual hemos creado la siguiente vista :
-imagen 8
+
+![](https://github.com/LibreLabUCM/LiberarFdI/blob/master/DESARROLLO%20DE%20SISTEMAS%20INTERACTIVOS/imagenes/Captura8.PNG)
 
 Tenemos que hacer un link en el panel de escribir para que este nos lleve a la nueva página de resultados.
-imagen9
+
+![](https://github.com/LibreLabUCM/LiberarFdI/blob/master/DESARROLLO%20DE%20SISTEMAS%20INTERACTIVOS/imagenes/Captura9.PNG)
 
 De forma que cuando pulsemos sobre el panel de escribir(preferiblemente sobre el botón de search) nos llevará a este otro.
- imagen10
+ 
+![](https://github.com/LibreLabUCM/LiberarFdI/blob/master/DESARROLLO%20DE%20SISTEMAS%20INTERACTIVOS/imagenes/Captura10.PNG)
 
 Después solo faltaría exportar el mockup, como .pdf por ejemplo y comprobar que los link estan bien. 
 

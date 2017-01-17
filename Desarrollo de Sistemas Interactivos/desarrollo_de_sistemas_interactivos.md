@@ -84,7 +84,7 @@ A Continuación comprobamos donde se descargó el programa de instalación, en m
 
 Después ejecutamos el comando:
 
-> sudo dpkg -i evoluspencil_2.0.5_all.deb
+	sudo dpkg -i evoluspencil_2.0.5_all.deb
 
 
 ![](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Desarrollo%20de%20Sistemas%20Interactivos/images/Captura3.PNG)

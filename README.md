@@ -20,7 +20,7 @@ SEGUNDO
 
  - [Estructura de Datos y Algoritmos](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Estructura%20de%20Datos%20y%20Algoritmos/estructura_de_datos_y_algoritmos.md)
  - [Bases de datos](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Bases%20de%20Datos/bases_de_datos.md)
- - Tecnología y Organización de los Computadores (TOC/TC)
+ - [Tecnología y Organización de los Computadores](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Tecnologia%20y%20Organizacion%20de%20Computadores/tecnologia_y_organizacion_de_computadores.md) (TOC/TC)
  - Estructura de los Computadores
 
 TERCERO

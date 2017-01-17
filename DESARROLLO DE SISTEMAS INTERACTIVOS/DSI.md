@@ -6,9 +6,6 @@
 
 
 ----------
-
-
-
 									
 
 En esta asignatura nos enseñaran a hacer prototipos de aplicaciones, la aplicación que utilizamos es mybalsamic, para no tener que usar un software privado, el software open source que hemos escogido es Pencil. 
@@ -55,7 +52,7 @@ Necesitaremos entrar en la página web de la herramienta para descargar la versi
 
 URL: http://pencil.evolus.vn/Downloads.html
 
-imagen
+![](https://github.com/LibreLabUCM/LiberarFdI/blob/master/DESARROLLO%20DE%20SISTEMAS%20INTERACTIVOS/imagenes/Captura.PNG)
 
 **Windows 10**
 ----------

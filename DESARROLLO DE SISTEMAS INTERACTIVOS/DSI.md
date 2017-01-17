@@ -131,6 +131,7 @@ De forma que cuando pulsemos sobre el panel de escribir(preferiblemente sobre el
 
 Después solo faltaría exportar el mockup, como .pdf por ejemplo y comprobar que los link estan bien. 
 
+
  - Anexos:
 ----------------------
 ----------

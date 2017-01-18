@@ -129,7 +129,7 @@ De forma que cuando pulsemos sobre el panel de escribir(preferiblemente sobre el
  
 ![](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Desarrollo%20de%20Sistemas%20Interactivos/images/Captura10.PNG)
 
-Después solo faltaría exportar el mockup, como .pdf por ejemplo y comprobar que los link estan bien. 
+Después solo faltaría exportar el mockup y comprobar que los link estan bien. 
 
 
  - Anexos:

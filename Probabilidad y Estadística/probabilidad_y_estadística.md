@@ -60,6 +60,7 @@ Se intalará PSPP a través de este [enlace](https://sourceforge.net/projects/ps
 ----------
 
  - **Vista de variables**
+ 
 ![Vista de variables de PSPP](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Probabilidad%20y%20Estad%C3%ADstica/images/vista%20de%20variables.PNG?raw=TRUE)
 
 
@@ -130,4 +131,4 @@ Al darle aplicar aparecerán los datos importados en el PSPP y ya se podrá trab
  - Ficha docente de [probabilidad y estadística](http://www.fdi.ucm.es/Pub/ImpresoFichaDocente.aspx?Id=907) 
  - [Manual introductorio](http://www.index-f.com/lascasas/documentos/lc0773.pdf) al uso del programa para el análisis de datos
 
-
+[Volver al repositorio inicial](https://github.com/LibreLabUCM/LiberarFdI/)

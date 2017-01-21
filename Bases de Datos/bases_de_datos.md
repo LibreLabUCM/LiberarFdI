@@ -1,3 +1,9 @@
+<!--Creado y editado por Javier Martín Villarreal -->
+<!--
+Esta obra está bajo una licencia Licencia Creative Commons Atribución 4.0 Internacional. 
+Licencia: http://creativecommons.org/licenses/by/4.0/
+-->
+
 **Bases de Datos**
 ==============
 ----------
@@ -143,6 +149,8 @@ Una vez instalados servidor y cliente, tendremos que realizar algunos pasos para
 
  - [Guía de instalación](https://downloads.mariadb.org/mariadb/repositories) oficial de MariaDB.
  - Consejos de instalación de la [página de descargas](http://dbeaver.jkiss.org/download/) oficial de DBeaver.
-
-
+ 
  [Volver al repositorio principal.](https://github.com/LibreLabUCM/LiberarFdI/)
+ 
+ [![Licencia Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+ Esta obra está bajo una  [Licencia Creative Commons Atribución 4.0 Internacional](http://creativecommons.org/licenses/by/4.0/) 

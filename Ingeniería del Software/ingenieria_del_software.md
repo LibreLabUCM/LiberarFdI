@@ -4,12 +4,11 @@
 ==============
 ----------
 
-
-Ingeniería de Software es una asignatura de segundo curso común a todos los grados de la Facultad de Informática. El temario que se trata en la asignatura aborda los modelos de proceso y sus métricas, plan de proyecto y toda la documentación que este conlleva, UML y el proceso unificado de desarrollo.
+<p style="text-align: justify;">Ingeniería de Software es una asignatura de segundo curso común a todos los grados de la Facultad de Informática. El temario que se trata en la asignatura aborda los modelos de proceso y sus métricas, plan de proyecto y toda la documentación que este conlleva, UML y el proceso unificado de desarrollo.
 
 Durante la asignatura se requiere hacer un proyecto software mediante diagramas UML. Así pues, para el desarrollo del proyecto y más concretamente para realizar los diagramas UML, trabajaremos con la herramienta *Umbrello UML Modeller*, disponible en Linux, Windows, Mac OS X y bajo licencia GPL.
 
-**[Umbrello](https://umbrello.kde.org/)** para la creación y edición de diagramas UML para llevar a cabo el desarrollo de software.
+**[Umbrello](https://umbrello.kde.org/)** para la creación y edición de diagramas UML para llevar a cabo el desarrollo de software.</p>
 
  
 

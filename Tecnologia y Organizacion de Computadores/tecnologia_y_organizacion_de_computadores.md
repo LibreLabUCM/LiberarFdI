@@ -1,3 +1,9 @@
+<!--Creado y editado por Adrián Panadero González -->
+<!--
+Esta obra está bajo una licencia Licencia Creative Commons Atribución 4.0 Internacional. 
+Licencia: http://creativecommons.org/licenses/by/4.0/
+-->
+
 #**Tecnología y Organización de Computadores**
 
 Asignatura de segundo de carrera en la que se amplían los conocimientos de la asignatura de primero de Fundamentos de Computadores, más enfocado en el primer cuatrimestre. Se programa en VHDL..
@@ -96,3 +102,7 @@ Después instalamos GTKWave desde este [enlace](http://gtkwave.sourceforge.net/g
  - [Ficha docente](http://www.fdi.ucm.es/Pub/ImpresoFichaDocente.aspx?Id=905) de la asignatura.
 
  [Volver al repositorio principal.](https://github.com/LibreLabUCM/LiberarFdI/)
+ 
+ 
+  [![Licencia Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+ Esta obra está bajo una  [Licencia Creative Commons Atribución 4.0 Internacional](http://creativecommons.org/licenses/by/4.0/) 

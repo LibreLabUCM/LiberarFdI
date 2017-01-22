@@ -1,3 +1,8 @@
+<!--Creado y editado por Nerea Gómez Domínguez-->
+<!--
+Esta obra está bajo una licencia Licencia Creative Commons Atribución 4.0 Internacional. 
+Licencia: http://creativecommons.org/licenses/by/4.0/
+-->
 
 **Probabilidad y estadística**
 ==========================
@@ -131,4 +136,8 @@ Al darle aplicar aparecerán los datos importados en el PSPP y ya se podrá trab
  - Ficha docente de [probabilidad y estadística](http://www.fdi.ucm.es/Pub/ImpresoFichaDocente.aspx?Id=907) 
  - [Manual introductorio](http://www.index-f.com/lascasas/documentos/lc0773.pdf) al uso del programa para el análisis de datos
 
-[Volver al repositorio inicial](https://github.com/LibreLabUCM/LiberarFdI/)
+ [Volver al repositorio inicial](https://github.com/LibreLabUCM/LiberarFdI/)
+
+
+ [![Licencia Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+ Esta obra está bajo una  [Licencia Creative Commons Atribución 4.0 Internacional](http://creativecommons.org/licenses/by/4.0/) 

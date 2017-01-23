@@ -10,7 +10,7 @@ Durante la asignatura se requiere hacer un proyecto software mediante diagramas 
 
 **Índice de la guia**
 	
-	Imagen 0
+![enter image description here](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Ingenier%C3%ADa%20del%20Software/images/imagen0.png)
 
 # 1. Umbrello
 =======
@@ -57,7 +57,7 @@ La ventana principal de Umbrello UML Modeller está dividida en tres áreas que 
 - Área de trabajo
 - Ventana de documentación e historial
 
-	Imagen 1
+![enter image description here](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Ingenier%C3%ADa%20del%20Software/images/imagen1.png)
 
 ### 2.1.1. Vista en árbol
 
@@ -110,7 +110,7 @@ Tras añadir elementos al modelo, podrá editarlos accediendo a su diálogo de p
 
 Antes de continuar, cabe destacar que hay dos modos de funcionamiento a la hora de manejar elementos en el *Área de trabajo*. Seleccionando *Nota* se nos activa el *click* para crear diagramas, relaciones y demás elementos UML. Por otro lado, seleccionando *Seleccionar*, activamos el modo con el que podremos mover los elementos creados anteriormente (organizarlos, hacerlos más grandes, mover las flechas de las relaciones, etc) por el *Área de trabajo*.
 
-	Imagen 2
+![enter image description here](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Ingenier%C3%ADa%20del%20Software/images/imagen2.png)
 
 
 ## 2.4. Añadir y eliminar diagramas
@@ -167,7 +167,7 @@ Puede editar la mayoría de los elementos UML de un modelo y de sus diagramas ab
 
 Tenga en cuenta que también puede seleccionar la opción de las propiedades de un elemento en su menú de contexto en la vista de árbol. Esto también le permite editar las propiedades de los diagramas, así como ajustar si se debe mostrar o no la cuadrícula.
 
-	Imagen 3
+![enter image description here](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Ingenier%C3%ADa%20del%20Software/images/imagen3.png)
 
 ### 2.5.4. Editar clases
 
@@ -195,15 +195,14 @@ Las asociaciones relacionan dos objetos UML entre sí. Normalmente, las asociaci
 
 Para crear una asociación, seleccione la herramienta apropiada en la barra de herramientas de trabajo (asociación genérica, generalización, agregación, etc.), haga clic en el primer elemento que participa en la asociación y luego vuelva a hacer clic en el segundo elemento de la misma. Observe que se necesitan dos clics, uno en cada uno de los objetos que participan en la asociación (no se trata de arrastrar un objeto sobre el otro).
 
-	Imagen 4
+![enter image description here](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Ingenier%C3%ADa%20del%20Software/images/imagen4.png)
 
 Si está intentando usar una asociación de un modo que va contra la especificación de UML, Umbrello UML Modeller se negará a crearla y le mostrará un mensaje de error. Este será el caso si, por ejemplo, existe una generalización desde la «clase A» hasta la «clase B» y luego intenta crear otra generalización desde la «clase B» hasta la «clase A».
 
 Si hace clic con el botón derecho del ratón en una asociación, se mostrará un menú de contexto con las acciones que puede aplicar sobre ella. Si necesita borrar una asociación, seleccione la opción *Borrar* en este menú de contexto. También puede seleccionar la opción *Propiedades* y, según el tipo de asociación, editar sus atributos, como sus roles y su multiplicidad.
 
-	Imagen 5
-	
-	
+![enter image description here](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Ingenier%C3%ADa%20del%20Software/images/imagen5.png)
+		
 Otro concepto útil es el de asociación. Las asociaciones se muestran, por omisión, como una línea recta que conecta los dos objetos del diagrama.
 
 Puede añadir puntos de anclaje para doblar una asociación haciendo doble clic en algún punto de la línea de la asociación. Esto insertará un punto de anclaje (que se muestra como un punto azul al seleccionar la línea de la asociación) que podrá mover para dar forma a la asociación.
@@ -216,7 +215,7 @@ Las notas, las líneas de texto y los cuadros son elementos que pueden estar pre
 
 Para añadir una nota o una línea de texto, seleccione la correspondiente herramienta en la barra de herramientas de trabajo y haga clic en el punto del diagrama donde quiera situar el comentario. Puede editar su texto abriendo las propiedades del elemento mediante su menú de contexto o, en el caso de las notas, haciendo doble clic sobre ellas.
 
-	Imagen 6
+![enter image description here](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Ingenier%C3%ADa%20del%20Software/images/imagen6.png)
 
 Resulta interesante y práctico explicar qué son los anclajes. Los anclajes se usan para enlazar una nota de texto y otro elemento UML. Por ejemplo, seguramente usará una nota de texto para explicar o hacer algún comentario sobre una clase o una asociación en concreto, en cuyo caso puede usar un anclaje para dejar claro que la nota «pertenece» al elemento en cuestión.
 
@@ -235,7 +234,7 @@ El primer paso consiste en seleccionar las clases para las que desea generar có
 
 El siguiente paso del asistente le permite modificar los parámetros que usa el generador de código para escribir el código fuente. Dispone de las siguientes opciones:
 
-	Imagen 7
+![enter image description here](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Ingenier%C3%ADa%20del%20Software/images/imagen7.png)
 	
 - Language (lenguaje): Por omisión, Umbrello UML Modeller creará código en el lenguaje que haya seleccionado como activo, aunque en el asistente de generación de código tendrá la opción de usar otro lenguaje. 
 
@@ -249,7 +248,7 @@ Tenga en cuenta que las opciones que haya seleccionado en el asistente de genera
 
 Si ha ajustado las opciones de generación de código de forma correcta y desea generar código inmediatamente sin recorrer todos los pasos del asistente, puede seleccionar *Generar todo el código* en el menú *Código*. Esto generará código para todas las clases del modelo usando las preferencias actuales (incluyendo la carpeta de salida y la política de sobrescritura, por lo que debería tener cuidado).
 
-	Imagen 8
+![enter image description here](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Ingenier%C3%ADa%20del%20Software/images/imagen8.png)
 	
 En nuestro caso, para la generación de código, hemos seleccionado el lenguaje C++ y hemos añadido tres atributos a la clase Empleados: Nombre (String), Apellidos (String) y Edad (int). **El código resultante (ficheros Empleados.cpp y Empleados.h) puede consultarse dentro de la carpeta "Ejemplo Empleados", la cual se encuentra en este mismo directorio.**
 	
@@ -259,7 +258,7 @@ Umbrello UML Modeller puede importar código fuente de proyectos existentes para
 
 Para importar clases en un modelo, seleccione la entrada *Asistente de importación de código...* en el menú *Código*. En el diálogo de archivos, seleccione los archivos que contengan declaraciones de clases y pulse *Siguiente* y después *Iniciar* *Importación* y *Terminar*. Las clases se importarán y podrá encontrarlas como parte del modelo en la vista en árbol. Tenga presente que Umbrello UML Modeller no creará ningún tipo de diagrama para mostrar las clases: solo las importará en su modelo par que pueda usarlas en cualquier diagrama que desee. 
 
-	Imagen 9
+![enter image description here](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Ingenier%C3%ADa%20del%20Software/images/imagen9.png)
 	
 ## 2.7. Otras funciones
 ----------------------
@@ -282,14 +281,14 @@ Umbrello UML Modeller le permite imprimir diagramas individuales. Pulse el botó
 
 Para organizar mejor su modelo, especialmente en grandes proyectos, puede crear carpetas lógicas en la vista de árbol. Solo tiene que seleccionar la opción *Nueva* → *Carpeta* en el menú de contexto de las carpetas por omisión de la vista de árbol para crearlas. Las carpetas se pueden anidar y puede mover objetos arrastrándolos de una a otra.
 
-	Imagen 10
+![enter image description here](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Ingenier%C3%ADa%20del%20Software/images/imagen10.png)
 	
 ## 2.8. Ejemplo Diagrama de Estados
 ----------------------
 
 Como se dijo en la introducción al punto **2. Manual de usuario**, no se pretende enseñar todos y cada uno de los elementos que componen los distintos diagramas. A modo de plasmar un sencillo ejemplo, se va a realizar un Diagrama de Estados con una hipotética función de Alta Usuario.
 
-	Imagen 11
+![enter image description here](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Ingenier%C3%ADa%20del%20Software/images/imagen11.png)
 
 
 # 3. Anexos

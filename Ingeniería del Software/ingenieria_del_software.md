@@ -57,7 +57,7 @@ Por último, para lanzarlo, ejecutamos:
 # 2. Manual de usuario
 =================
 
-Este manual no pretende ser un manual en el que aprender los distintos elementos de UMLy la construcción de diagramas. Por esa razón, no se harán ejemplos de todos los diagramas utilizados en Ingeniería del Software. Además se da por hecho que, aunque sea de forma básica, se conocen los conceptos utilizados en la construcción de diagramas usando UML.
+Este manual no pretende ser un manual en el que aprender los distintos elementos de UML y la construcción de diagramas. Por esa razón, no se harán ejemplos de todos los diagramas utilizados en Ingeniería del Software. Además se da por hecho que, aunque sea de forma básica, se conocen los conceptos utilizados en la construcción de diagramas usando UML.
 
 ## 2.1. Interfaz de usuario
 ----------------------
@@ -293,8 +293,18 @@ Umbrello UML Modeller le permite imprimir diagramas individuales. Pulse el botó
 
 Para organizar mejor su modelo, especialmente en grandes proyectos, puede crear carpetas lógicas en la vista de árbol. Solo tiene que seleccionar la opción *Nueva* → *Carpeta* en el menú de contexto de las carpetas por omisión de la vista de árbol para crearlas. Las carpetas se pueden anidar y puede mover objetos arrastrándolos de una a otra.
 
-**Anexos**
-======
+	Imagen 10
+	
+## 2.7. Ejemplo Diagrama de Estados
+----------------------
+
+Como se dijo en la introducción al punto **2. Manual de usuario**, no se pretende enseñar todos y cada uno de los elementos que componen los distintos diagramas. A modo de plasmar un sencillo ejemplo, se va a realizar un Diagrama de Estados con una hipotética función de Alta Usuario.
+
+	Imagen 11
+
+
+# 1. Anexos
+=======
 
  - [Página oficial](https://umbrello.kde.org/) de Umbrello UML Modeller.
  - [Documentación](https://umbrello.kde.org/documentation.php) oficial de Umbrello UML Modeller.

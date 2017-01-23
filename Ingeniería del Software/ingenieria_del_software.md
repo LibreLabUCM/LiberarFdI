@@ -17,7 +17,7 @@ Durante la asignatura se requiere hacer un proyecto software mediante diagramas 
 
 ## 1.1. Descripción del programa
 ---------------------------
-Fue desarrollada por Paul Hensgen, y está diseñado principalmente para KDE, aunque funciona en otros entornos de escritorio.
+Fue desarrollado por Paul Hensgen, y está diseñado principalmente para KDE, aunque funciona en otros entornos de escritorio.
 
 Umbrello maneja gran parte de los diagramas estándar UML pudiendo crearlos, además de manualmente, importándolos a partir de código en C++, Java, Python, IDL, Pascal/Delphi, Ada, o también Perl. Así mismo, permite crear un diagrama y generar el código automáticamente en los lenguajes antes citados, entre otros. El formato de fichero que utiliza está basado en XMI.
 

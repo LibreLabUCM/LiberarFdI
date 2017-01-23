@@ -252,7 +252,7 @@ El siguiente paso del asistente le permite modificar los parámetros que usa el 
 
 - Folders (carpetas): *Escribir todos los archivos generados en la carpeta*. Aquí debe seleccionar la carpeta en la que quiere que Umbrello UML Modeller sitúe el código fuente generado. La opción *Incluir archivos de cabecera de la carpeta* le permite insertar una cabecera al principio de cada archivo generado. Los archivos de cabecera pueden contener información sobre derechos de autor o sobre licencias, así como variables que se evalúan durante la generación del código. Puede examinar los archivos de plantillas de cabecera que acompañan a Umbrello UML Modeller para ver cómo se usan estas variables para sustituir su nombre o la fecha actual durante la generación. 
 
-- Overwrite Policy (política de sobre escritura): Esta opción le indica a Umbrello UML Modeller qué debe hacer si ya existe el archivo que va a crear en la carpeta de destino. Umbrello UML Modeller no puede modificar archivos de código fuente existentes, por lo que debe elegir entre sobrescribir el archivo existente, omitir la generación de ese archivo en particular o dejar que Umbrello UML Modeller escoja un nombre distinto para el archivo. Si elige la opción de usar un nombre diferente, Umbrello UML Modeller añadirá un sufijo al nombre del archivo.
+- Overwrite Policy (política de sobreescritura): Esta opción le indica a Umbrello UML Modeller qué debe hacer si ya existe el archivo que va a crear en la carpeta de destino. Umbrello UML Modeller no puede modificar archivos de código fuente existentes, por lo que debe elegir entre sobrescribir el archivo existente, omitir la generación de ese archivo en particular o dejar que Umbrello UML Modeller escoja un nombre distinto para el archivo. Si elige la opción de usar un nombre diferente, Umbrello UML Modeller añadirá un sufijo al nombre del archivo.
 
 El tercer y último paso del asistente muestra el estado del proceso de generación de código. Solo tiene que pulsar el botón «Generar» para escribir el código de las clases seleccionadas.
 
@@ -262,11 +262,36 @@ Si ha ajustado las opciones de generación de código de forma correcta y desea 
 
 	Imagen 8
 	
-En nuestro caso, para la generación de código, hemos seleccionado el lenguaje C++ y hemos añadido tres atributos a la clase Empleados: Nombre (stirng), Apellidos (String) y Edad (int). **El código resultante (ficheros Empleados.cpp y Empleados.h) puede consultarse dentro de la carpeta "Ejemplo Empleados", la cual se encuentra en este mismo directorio.**
-	Imagen 9
+En nuestro caso, para la generación de código, hemos seleccionado el lenguaje C++ y hemos añadido tres atributos a la clase Empleados: Nombre (String), Apellidos (String) y Edad (int). **El código resultante (ficheros Empleados.cpp y Empleados.h) puede consultarse dentro de la carpeta "Ejemplo Empleados", la cual se encuentra en este mismo directorio.**
 	
 ### 2.6.2. Importación de código
 
+Umbrello UML Modeller puede importar código fuente de proyectos existentes para ayudarle a construir un modelo de sus sistemas. Umbrello UML Modeller 2 permite usar código fuente de ActionScript, Ada, C++, C#, D, IDL, Java™, Javascript, MySQL y Pascal.
+
+Para importar clases en un modelo, seleccione la entrada *Asistente de importación de código...* en el menú *Código*. En el diálogo de archivos, seleccione los archivos que contengan declaraciones de clases y pulse *Siguiente* y después *Iniciar* *Importación* y *Terminar*. Las clases se importarán y podrá encontrarlas como parte del modelo en la vista en árbol. Tenga presente que Umbrello UML Modeller no creará ningún tipo de diagrama para mostrar las clases: solo las importará en su modelo par que pueda usarlas en cualquier diagrama que desee. 
+
+	Imagen 9
+	
+## 2.7. Otras funciones
+----------------------
+
+Este capítulo explicará brevemente otras funciones que le ofrece Umbrello UML Modeller.
+
+### 2.7.1. Copiar objetos como imágenes PNG
+
+Además de ofrecerle las típicas funciones de copiar, cortar y pegar que esperaría para copiar objetos entre diferentes diagramas, Umbrello UML Modeller puede copiar objetos como imágenes PNG, por lo que podrá insertarlos en otros tipos de documentos. No necesita hacer nada especial para usar esta función: solo tiene que seleccionar un objeto de un diagrama (clase, actor, etc.) y copiarlo (Ctrl+C o usando el menú); después puede abrir un documento de Calligra Words (o de cualquier otro programa en el que pueda pegar imágenes) y seleccionar *Pegar*. Esta es una poderosa función para exportar partes de sus diagramas como simples imágenes.
+
+### 2.7.2. Exportar una imagen
+
+También puede exportar un diagrama completo como una imagen. Lo único que tiene que hacer es seleccionar el diagrama que desee exportar y usar la opción *Exportar como imagen...* del menú *Diagrama*. 
+
+### 2.7.3. Imprimir
+
+Umbrello UML Modeller le permite imprimir diagramas individuales. Pulse el botón *Imprimir* de la barra de herramientas de la aplicación o seleccione la opción *Imprimir* en el menú *Archivo* para mostrar el diálogo estándar de impresión de KDE, desde el que podrá imprimir sus diagramas. 
+
+### 2.7.4. Carpetas lógicas
+
+Para organizar mejor su modelo, especialmente en grandes proyectos, puede crear carpetas lógicas en la vista de árbol. Solo tiene que seleccionar la opción *Nueva* → *Carpeta* en el menú de contexto de las carpetas por omisión de la vista de árbol para crearlas. Las carpetas se pueden anidar y puede mover objetos arrastrándolos de una a otra.
 
 **Anexos**
 ======

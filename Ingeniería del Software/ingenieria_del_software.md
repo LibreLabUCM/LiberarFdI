@@ -297,7 +297,6 @@ Como se dijo en la introducción al punto **2. Manual de usuario**, no se preten
  - [Página oficial](https://umbrello.kde.org/) de Umbrello UML Modeller.
  - [Documentación](https://umbrello.kde.org/documentation.php) oficial de Umbrello UML Modeller.
  - [Características](https://umbrello.kde.org/features.php) de Umbrello UML Modeller.
- - [](https://umbrello.kde.org/documentation.php) oficial de Umbrello UML Modeller.
  - [Comunidad](https://www.kde.org/community/) KDE.
 
  

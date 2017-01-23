@@ -20,7 +20,10 @@ Durante la asignatura se requiere hacer un proyecto software mediante diagramas 
 		2.1.2. Vista de documentación e historial
 		2.1.3. Área de trabajo
 	2.2. Crear, cargar y guardar modelos
-
+	
+	
+	Imagen 0
+	
 
 
 # 1. Umbrello
@@ -303,7 +306,7 @@ Como se dijo en la introducción al punto **2. Manual de usuario**, no se preten
 	Imagen 11
 
 
-# 1. Anexos
+# 3. Anexos
 =======
 
  - [Página oficial](https://umbrello.kde.org/) de Umbrello UML Modeller.

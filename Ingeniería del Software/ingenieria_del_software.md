@@ -8,10 +8,20 @@ Ingeniería de Software es una asignatura de segundo curso común a todos los gr
 
 Durante la asignatura se requiere hacer un proyecto software mediante diagramas UML. Así pues, para el desarrollo del proyecto y más concretamente para realizar los diagramas UML, trabajaremos con la herramienta *Umbrello UML Modeller*, disponible en Linux, Windows, Mac OS X y bajo licencia GPL.
 
-**[Umbrello](https://umbrello.kde.org/)** para la creación y edición de diagramas UML para llevar a cabo el desarrollo de software.
+**Índice de la guia**
 
-Índice de la guia 
- 
+1. Umbrello
+  1.1.  Descripción del programa
+  1.2.  Requisitos de hardware
+  1.3.  Guia de instalación
+2. Manual de usuario
+	2.1. Interfaz de usuario
+		2.1.1. Vista en árbol
+		2.1.2. Vista de documentación e historial
+		2.1.3. Área de trabajo
+	2.2. Crear, cargar y guardar modelos
+
+
 
 # 1. Umbrello
 =======
@@ -196,11 +206,13 @@ Las asociaciones relacionan dos objetos UML entre sí. Normalmente, las asociaci
 
 Para crear una asociación, seleccione la herramienta apropiada en la barra de herramientas de trabajo (asociación genérica, generalización, agregación, etc.), haga clic en el primer elemento que participa en la asociación y luego vuelva a hacer clic en el segundo elemento de la misma. Observe que se necesitan dos clics, uno en cada uno de los objetos que participan en la asociación (no se trata de arrastrar un objeto sobre el otro).
 
+	Imagen 4
+
 Si está intentando usar una asociación de un modo que va contra la especificación de UML, Umbrello UML Modeller se negará a crearla y le mostrará un mensaje de error. Este será el caso si, por ejemplo, existe una generalización desde la «clase A» hasta la «clase B» y luego intenta crear otra generalización desde la «clase B» hasta la «clase A».
 
 Si hace clic con el botón derecho del ratón en una asociación, se mostrará un menú de contexto con las acciones que puede aplicar sobre ella. Si necesita borrar una asociación, seleccione la opción *Borrar* en este menú de contexto. También puede seleccionar la opción *Propiedades* y, según el tipo de asociación, editar sus atributos, como sus roles y su multiplicidad.
 
-	Imagen 4
+	Imagen 5
 	
 	
 Otro concepto útil es el de asociación. Las asociaciones se muestran, por omisión, como una línea recta que conecta los dos objetos del diagrama.
@@ -215,17 +227,45 @@ Las notas, las líneas de texto y los cuadros son elementos que pueden estar pre
 
 Para añadir una nota o una línea de texto, seleccione la correspondiente herramienta en la barra de herramientas de trabajo y haga clic en el punto del diagrama donde quiera situar el comentario. Puede editar su texto abriendo las propiedades del elemento mediante su menú de contexto o, en el caso de las notas, haciendo doble clic sobre ellas.
 
-	Imagen 5
+	Imagen 6
 
 Resulta interesante y práctico explicar qué son los anclajes. Los anclajes se usan para enlazar una nota de texto y otro elemento UML. Por ejemplo, seguramente usará una nota de texto para explicar o hacer algún comentario sobre una clase o una asociación en concreto, en cuyo caso puede usar un anclaje para dejar claro que la nota «pertenece» al elemento en cuestión.
 
 Para añadir un anclaje entre una nota y otro elemento UML, use el botón de anclaje que hay en la barra de herramientas de trabajo. Primero debe hacer clic en la nota y luego en el elemento UML con el que quiera enlazar la nota. 
 
+## 2.6. Importación y generación de código
+----------------------
 
+Umbrello UML Modeller es una herramienta de modelado UML. Como tal, su propósito principal es servirle de ayuda en el análisis y diseño de sistemas. No obstante, para hacer la transición entre el diseño y la implementación, le permite generar código fuente en distintos lenguajes de programación para que pueda empezar con algo. Además, si desea comenzar a usar UML en un proyecto de C++ ya iniciado, Umbrello UML Modeller le puede ayudar a crear un modelo del sistema a partir del código fuente analizando el código fuente e importando las clases que encuentre.
 
+### 2.6.1. Generación de código
 
+Para poder generar código con Umbrello UML Modeller, necesita primero crear o cargar un modelo que contenga al menos una clase. Cuando esté preparado para empezar a escribir código, seleccione la entrada *Asistente para generación de código* en el menú *Código* para iniciar un asistente que le guiará durante el proceso de generación de código.
 
+El primer paso consiste en seleccionar las clases para las que desea generar código fuente. Por omisión están seleccionadas todas las clases del modelo, aunque puede eliminar las que no desee moviéndolas a la lista de la parte izquierda.
 
+El siguiente paso del asistente le permite modificar los parámetros que usa el generador de código para escribir el código fuente. Dispone de las siguientes opciones:
+
+	Imagen 7
+	
+- Language (lenguaje): Por omisión, Umbrello UML Modeller creará código en el lenguaje que haya seleccionado como activo, aunque en el asistente de generación de código tendrá la opción de usar otro lenguaje. 
+
+- Folders (carpetas): *Escribir todos los archivos generados en la carpeta*. Aquí debe seleccionar la carpeta en la que quiere que Umbrello UML Modeller sitúe el código fuente generado. La opción *Incluir archivos de cabecera de la carpeta* le permite insertar una cabecera al principio de cada archivo generado. Los archivos de cabecera pueden contener información sobre derechos de autor o sobre licencias, así como variables que se evalúan durante la generación del código. Puede examinar los archivos de plantillas de cabecera que acompañan a Umbrello UML Modeller para ver cómo se usan estas variables para sustituir su nombre o la fecha actual durante la generación. 
+
+- Overwrite Policy (política de sobre escritura): Esta opción le indica a Umbrello UML Modeller qué debe hacer si ya existe el archivo que va a crear en la carpeta de destino. Umbrello UML Modeller no puede modificar archivos de código fuente existentes, por lo que debe elegir entre sobrescribir el archivo existente, omitir la generación de ese archivo en particular o dejar que Umbrello UML Modeller escoja un nombre distinto para el archivo. Si elige la opción de usar un nombre diferente, Umbrello UML Modeller añadirá un sufijo al nombre del archivo.
+
+El tercer y último paso del asistente muestra el estado del proceso de generación de código. Solo tiene que pulsar el botón «Generar» para escribir el código de las clases seleccionadas.
+
+Tenga en cuenta que las opciones que haya seleccionado en el asistente de generación de código solo son válidas en dicho momento. La próxima vez que ejecute el asistente tendrá que volver a seleccionar todas las opciones (carpeta de cabeceras, política de sobrescritura y demás). Puede definir los valores por omisión que use Umbrello UML Modeller en la sección *Generación de código* de las preferencias de Umbrello UML Modeller, disponible en *Preferencias* → *Configurar Umbrello UML Modeller...*
+
+Si ha ajustado las opciones de generación de código de forma correcta y desea generar código inmediatamente sin recorrer todos los pasos del asistente, puede seleccionar *Generar todo el código* en el menú *Código*. Esto generará código para todas las clases del modelo usando las preferencias actuales (incluyendo la carpeta de salida y la política de sobrescritura, por lo que debería tener cuidado).
+
+	Imagen 8
+	
+En nuestro caso, para la generación de código, hemos seleccionado el lenguaje C++ y hemos añadido tres atributos a la clase Empleados: Nombre (stirng), Apellidos (String) y Edad (int). **El código resultante (ficheros Empleados.cpp y Empleados.h) puede consultarse dentro de la carpeta "Ejemplo Empleados", la cual se encuentra en este mismo directorio.**
+	Imagen 9
+	
+### 2.6.2. Importación de código
 
 
 **Anexos**

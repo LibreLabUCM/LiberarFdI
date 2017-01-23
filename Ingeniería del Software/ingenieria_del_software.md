@@ -9,22 +9,8 @@ Ingeniería de Software es una asignatura de segundo curso común a todos los gr
 Durante la asignatura se requiere hacer un proyecto software mediante diagramas UML. Así pues, para el desarrollo del proyecto y más concretamente para realizar los diagramas UML, trabajaremos con la herramienta *Umbrello UML Modeller*, disponible en Linux, Windows, Mac OS X y bajo licencia GPL.
 
 **Índice de la guia**
-
-1. Umbrello
-  1.1.  Descripción del programa
-  1.2.  Requisitos de hardware
-  1.3.  Guia de instalación
-2. Manual de usuario
-	2.1. Interfaz de usuario
-		2.1.1. Vista en árbol
-		2.1.2. Vista de documentación e historial
-		2.1.3. Área de trabajo
-	2.2. Crear, cargar y guardar modelos
-	
 	
 	Imagen 0
-	
-
 
 # 1. Umbrello
 =======
@@ -298,7 +284,7 @@ Para organizar mejor su modelo, especialmente en grandes proyectos, puede crear 
 
 	Imagen 10
 	
-## 2.7. Ejemplo Diagrama de Estados
+## 2.8. Ejemplo Diagrama de Estados
 ----------------------
 
 Como se dijo en la introducción al punto **2. Manual de usuario**, no se pretende enseñar todos y cada uno de los elementos que componen los distintos diagramas. A modo de plasmar un sencillo ejemplo, se va a realizar un Diagrama de Estados con una hipotética función de Alta Usuario.

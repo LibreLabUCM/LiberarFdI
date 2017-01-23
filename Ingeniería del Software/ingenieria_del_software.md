@@ -1,6 +1,6 @@
 <!--Creado por Jonathan Carrero Aranda -->
 
-**Ingeniería del Software**
+**Ingeniería de Software**
 ==============
 ----------
 

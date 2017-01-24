@@ -1,4 +1,8 @@
-
++<!--Creado y editado por Alberto Márquez Gómez -->
++<!--
++Esta obra está bajo una licencia Licencia Creative Commons Atribución 4.0 Internacional. 
++Licencia: http://creativecommons.org/licenses/by/4.0/
++-->
 
 
 **DESARROLLO DE SISTEMAS INTERACTIVOS**
@@ -143,3 +147,5 @@ Después solo faltaría exportar el mockup y comprobar que los link estan bien.
    del curso 2016/2017:
    http://www.fdi.ucm.es/Pub/ImpresoFichaDocente.aspx?Id=1111
 
++ [![Licencia Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
++ Esta obra está bajo una  [Licencia Creative Commons Atribución 4.0 Internacional](http://creativecommons.org/licenses/by/4.0/)

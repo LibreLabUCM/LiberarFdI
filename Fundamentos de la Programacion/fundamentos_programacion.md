@@ -1,3 +1,9 @@
+<!--Creado y editado por Roberto Barrasus -->
+<!--
+Esta obra está bajo una licencia Licencia Creative Commons Atribución 4.0 Internacional. 
+Licencia: http://creativecommons.org/licenses/by/4.0/
+-->
+
 #**Fundamentos de la Programación**
 
 Asignatura de primero de carrera con la que se inicia al estudiante en los conocimientos de la programación utilizando el lenguaje de programación C++. En ella se aprenden las construcciones básicas de la programación estructurada.
@@ -113,3 +119,6 @@ Para terminar, en la última ventana tenemos también opciones para copiar el pr
 
 
  [Volver al repositorio principal.](https://github.com/LibreLabUCM/LiberarFdI/)
+ 
+ [![Licencia Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+ Esta obra está bajo una  [Licencia Creative Commons Atribución 4.0 Internacional](http://creativecommons.org/licenses/by/4.0/) 

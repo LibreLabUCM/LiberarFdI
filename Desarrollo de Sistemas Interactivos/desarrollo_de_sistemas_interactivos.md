@@ -1,5 +1,5 @@
-+<!--Creado y editado por Alberto Márquez Gómez -->
-+<!--
+<!--Creado y editado por Alberto Márquez Gómez -->
+<!--
 +Esta obra está bajo una licencia Licencia Creative Commons Atribución 4.0 Internacional. 
 +Licencia: http://creativecommons.org/licenses/by/4.0/
 +-->

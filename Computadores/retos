@@ -1,0 +1,9 @@
+En la segunda mitad de FC se emplea Eclipse ARM que se puede usar en Eclipse Luna. Todo Eclipse Luna puede ponerse a punto con estos repositorios:
+
+Luna - http://download.eclipse.org/releases/luna
+GNU ARM Plug-ins - http://download.eclipse.org/releases/indigo
+http://gnuarmeclipse.sourceforge.net/updates
+
+El principal problema de FC de 1º se da en la primera mitad: Para hacer los protoboard usan un simulador del proto (solo en Windows). No he encontrado por ahora una alternativa que sea suficientemente parecido (los simuladores como logic.ly se centran en las puertas lógicas y no el cableado).
+
+-Zildj1an.

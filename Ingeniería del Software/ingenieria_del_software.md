@@ -43,7 +43,6 @@ Por último, para lanzarlo, ejecutamos:
 
 
 # 2. Manual de usuario
-=================
 
 Este manual no pretende ser un manual en el que aprender los distintos elementos de UML y la construcción de diagramas. Por esa razón, no se harán ejemplos de todos los diagramas utilizados en Ingeniería del Software. Además se da por hecho que, aunque sea de forma básica, se conocen los conceptos utilizados en la construcción de diagramas usando UML.
 
@@ -291,7 +290,7 @@ Como se dijo en la introducción al punto **2. Manual de usuario**, no se preten
 
 
 # 3. Anexos
-=======
+
 
  - [Página oficial](https://umbrello.kde.org/) de Umbrello UML Modeller.
  - [Documentación](https://umbrello.kde.org/documentation.php) oficial de Umbrello UML Modeller.

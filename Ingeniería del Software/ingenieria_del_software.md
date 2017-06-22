@@ -13,7 +13,6 @@ Durante la asignatura se requiere hacer un proyecto software mediante diagramas 
 ![enter image description here](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Ingenier%C3%ADa%20del%20Software/images/imagen0.png)
 
 # 1. Umbrello
-=======
 
 ## 1.1. Descripción del programa
 ---------------------------

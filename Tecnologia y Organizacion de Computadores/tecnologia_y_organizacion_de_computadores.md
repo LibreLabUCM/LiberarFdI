@@ -4,16 +4,16 @@ Esta obra está bajo una licencia Licencia Creative Commons Atribución 4.0 Inte
 Licencia: http://creativecommons.org/licenses/by/4.0/
 -->
 
-#**Tecnología y Organización de Computadores**
+# **Tecnología y Organización de Computadores**
 
 Asignatura de segundo de carrera en la que se amplían los conocimientos de la asignatura de primero de Fundamentos de Computadores, más enfocado en el primer cuatrimestre. Se programa en VHDL..
 
-##**GHDL y GTKWave**
-###**1. Descripción del programa**
+## **GHDL y GTKWave**
+### **1. Descripción del programa**
 **[GHDL](http://ghdl.free.fr/ )** es un compilador de código abierto para el lenguaje VHDL. Permite la compilación y ejecución de código VHDL en el ordenador. Combinado con un analizador de ondas gráfico **[GTKWave](http://gtkwave.sourceforge.net/)** y un editor de texto (Geany, Notepad++, Sublime Text)
-###**2. Requisitos hardware**
+### **2. Requisitos hardware**
 Se puede usar sin problemas en cualquier ordenador.
-###**3. Guía de instalación**
+### **3. Guía de instalación**
 - **Linux**
 
 Para poder instalar GHDL, en Debian 7, hay que descargarse la distribución en el siguiente [enlace](https://sourceforge.net/projects/ghdl-updates/files/Builds/ghdl-0.31/Debian/ghdl_0.31-2wheezy1_amd64.deb/download).
@@ -52,7 +52,7 @@ Instalamos GHDL a través de este [enlace](https://github.com/tgingold/ghdl/rele
 Después instalamos GTKWave desde este [enlace](http://gtkwave.sourceforge.net/gtkwave.zip).
 
 
-###**4. Estructura del programa**
+### **4. Estructura del programa**
 
  **1. Terminal**
  
@@ -61,7 +61,7 @@ Después instalamos GTKWave desde este [enlace](http://gtkwave.sourceforge.net/g
  **2. GTKWave**
  
 ![GTKWave](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Tecnologia%20y%20Organizacion%20de%20Computadores/images/GTKWave.png?raw=true)
-###**5. Manual de usuario**
+### **5. Manual de usuario**
 
  - Creamos los archivos VHDL tanto el código como el testbench con Geany o cualquier editor de texto:
     
@@ -94,7 +94,7 @@ Después instalamos GTKWave desde este [enlace](http://gtkwave.sourceforge.net/g
    
 ![Simulacion](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Tecnologia%20y%20Organizacion%20de%20Computadores/images/Simulacion.png?raw=true)
 
-###**6. Anexos:**
+### **6. Anexos:**
 
  - [Manual de instalación](https://sourceforge.net/projects/umhdl/files/umhdl-install-es.pdf/download) de UMHDL, GHDL.
 

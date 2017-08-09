@@ -4,34 +4,34 @@ Esta obra está bajo una licencia Licencia Creative Commons Atribución 4.0 Inte
 Licencia: http://creativecommons.org/licenses/by/4.0/
 -->
 
-#**Fundamentos de la Programación**
+# **Fundamentos de la Programación**
 
 Asignatura de primero de carrera con la que se inicia al estudiante en los conocimientos de la programación utilizando el lenguaje de programación C++. En ella se aprenden las construcciones básicas de la programación estructurada.
 Necesitamos un entorno de desarrollo (IDE) compatible con C++. Eclipse cumple nuestros requisitos, desarrollado por Eclipse Foundation y de código abierto.
 Todo esto lo realizaremos sobre un sistema Debian 7.
 
-##**Eclipse**
-###**1. Descripción del programa**
+## **Eclipse**
+### **1. Descripción del programa**
 
 Eclipse es un entorno de desarrollo de software en multilenguaje que incluye un entorno de desarrollo integrado (IDE) y un sistema extensible de plugins que puede ser instalado en el IDE, para proveer nuevas características y funcionalidades. Está escrito principalmente en Java y se puede utilizar para desarrollar aplicaciones en Java, C, C++, COBOL, Python, Perl, PHP, Scala y Ruby (incluyendo Ruby on Rails). 
 
 Distribuido bajo los términos de la Licencia Pública de Eclipse, Eclipse es libre y software de código abierto.
 
 
-###**2. Requisitos hardware**
+### **2. Requisitos hardware**
 - 1 GB de RAM
 - Procesador de al menos 1,6 GHz
 - 500 MB de espacio en disco
 
 
-###**3. Guía de instalación**
+### **3. Guía de instalación**
 Para la instalación necesitamos abrir una terminal y tener acceso al usuario administrador para poder ejecutar el siguiente comando:
 	
 	sudo apt-get install eclipse-cdt
 Una vez finalizado el proceso de instalación ya podemos ejecutar eclipse.
 
 
-###**4. Estructura del programa**
+### **4. Estructura del programa**
 Eclipse cuenta con varias perspectivas, entre ellas una para programar en C++ (desarrollo) y otra para depurar (debug).
 
 ![Vista de desarrollo](https://github.com/LibreLabUCM/LiberarFdI/blob/master/Fundamentos%20de%20la%20Programacion/images/01.png?raw=true)
@@ -41,8 +41,8 @@ Vista de desarrollo
 Vista de depuración
 
 
-###**5. Manual de usuario**
-####**Crear nuevo proyecto**
+### **5. Manual de usuario**
+#### **Crear nuevo proyecto**
 Para crear un nuevo proyecto tenemos que ir a
  
 		File -> New -> C++ Proyect
@@ -75,7 +75,7 @@ Entonces introducimos el directorio en el que estará ubicado y el nombre del fi
 Y pulsamos en Finish para terminar.
 
 
-####**Exportar proyecto**
+#### **Exportar proyecto**
 
 Para exportar un proyecto:
 	
@@ -94,7 +94,7 @@ Y finalmente seleccionamos el proyecto de nuestro workspace que queremos exporta
 Para terminar pulsamos Finish.
 
 
-####**Importar proyecto**
+#### **Importar proyecto**
 
 Para importar un proyecto:
 	

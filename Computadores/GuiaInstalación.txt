@@ -1,0 +1,10 @@
+INSTALACIÓN ECLIPSE 
+1.- Vamos a la página principal de eclipse (www.eclipse.org) y hacemos click en download
+2.- El siguiente paso es hacer click sobre ”Download Packages”3.- Buscamos el que pone “Eclipse IDE for C/C++ Developers”, hacemos click sobre la versión de
+nuestro sistema operativo (32 o 64 bits)
+4.- Hacemos click en Download5.- Descomprimimos el archivo descargado
+6.- Si queremos poder ejecutar eclipse desde la terminal, primero deberemos crear un acceso directo,
+después mirar las rutas del $PATH$. En base a esas rutas, elegir un sitio donde posicionar nuestro
+acceso directo. (Comandos en la imagen)7.- Una vez abierto eclipse, nos dirigimos a Help → Install New Software . En work with escribimos
+nuestra versión de eclipse. Buscamos C/C++ Development Tools, e instalamos.
+8.- Nos dirigimos ahora a Help → Eclipse Marketplace . Buscamos GNU ARM Eclipse, e instalamos– Seleccionamos todas las casillas

@@ -130,10 +130,15 @@ Para la instalación necesitamos descargar el .deb de [aquí](https://atom.io) y
 
 	sudo dpkg -i atom-amd64.deb
 	
+Dado que Atom no soporta la actualización automática a través de la aplicación puedes añadirlo como paquete snap si está soportado por tu distribución:	
+
+	sudo snap install --classic atom
+	
 #### Arch linux y derivadas
 Para la instalación necesitamos abrir una terminal teniendo acceso al usuario administrador para poder ejecutar el siguiente comando:
 
 	sudo pacman -S atom
+
 	
 ### 4. Estructura del programa
 Atom cuenta con varias perspectivas, entre ellas una para editar texto y otra para trabajar con git.
@@ -151,6 +156,13 @@ Para crear un nuevo proyecto tenemos que crear una nueva carpeta en tu ordenador
  
 		File -> Add Project Folder
 y ya te aparecerá en la vista de árbol, pulsando CONTROL+N puedes abrir nuevas pestañas que podrás guardar en la capeta pulsando CONTROL+S y seleccionando su ruta.
+#### **Compilar tu proyecto**
+Abre una terminal y navega hasta el directorio de tu proyecto, después ejecuta:
+
+	g++ *.cpp -o main
+para compilarlo, y para correr tu programa ejecuta:
+	
+	./main
 
 
 

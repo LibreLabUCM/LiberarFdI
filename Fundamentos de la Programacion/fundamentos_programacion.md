@@ -116,6 +116,45 @@ Para terminar, en la última ventana tenemos también opciones para copiar el pr
 - [Ficha docente de la asignatura Fundamentos de la Programación del curso 2016/2017](http://www.fdi.ucm.es/Pub/ImpresoFichaDocente.aspx?Id=913)
 - [Eclipse](https://eclipse.org/)
  - [Eclipse C/C++](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon2)
+ 
+ 
+ ## Atom Editor 
+### 1. Descripción del programa
+
+Atom es un editor de texto de código abierto desarrollado por Github usando Electron, que permite crear aplicaciones multiplataforma usando tecnologías web basadas en Node.js
+### 2. Requisitos hardware
+Cualquier versión reciente de GNU/Linux, MacOs o Windows
+### 3. Guía de instalación
+#### Debian y derivadas
+Para la instalación necesitamos descargar el .deb de [aquí](https://atom.io) y posteriormente abrir una terminal teniendo acceso al usuario administrador para poder ejecutar el siguiente comando:
+
+	sudo dpkg -i atom-amd64.deb
+	
+#### Arch linux y derivadas
+Para la instalación necesitamos abrir una terminal teniendo acceso al usuario administrador para poder ejecutar el siguiente comando:
+
+	sudo pacman -S atom
+	
+### 4. Estructura del programa
+Atom cuenta con varias perspectivas, entre ellas una para editar texto y otra para trabajar con git.
+
+
+![Edición de texto](/Fundamentos%20de%20la%20Programacion/images/15.png?raw=true)
+Edición de texto
+
+![Herramienta de Git](/Fundamentos%20de%20la%20Programacion/images/16.png?raw=true)
+Herramienta de Git
+
+### 5. Manual de usuario
+#### **Crear nuevo proyecto**
+Para crear un nuevo proyecto tenemos que crear una nueva carpeta en tu ordenador y después ir a:
+ 
+		File -> Add Project Folder
+y ya te aparecerá en la vista de árbol, pulsando CONTROL+N puedes abrir nuevas pestañas que podrás guardar en la capeta pulsando CONTROL+S y seleccionando su ruta.
+
+
+
+
 
 
  [Volver al repositorio principal.](https://github.com/LibreLabUCM/LiberarFdI/)

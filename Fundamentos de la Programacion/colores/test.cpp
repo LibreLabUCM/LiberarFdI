@@ -12,7 +12,7 @@
 using namespace std;
 
 int main() {
-        
+
     cout << "yo estoy en color normal\n";
     setColor(Rojo);
     cout << "yo aparezco en color rojo\n";
@@ -22,9 +22,9 @@ int main() {
     cout << "yo voy de intenso\n";
     setColor(Gris);
     cout << "yo estoy en color normal\n";
-    
+
     cout << "pulsa una tecla ... ";
     cout << "has pulsado '" << (char)getch() << "' !\n";
-    
-    return 0;    
+
+    return 0;
 }

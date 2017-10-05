@@ -28,3 +28,7 @@ Habla con tu profesor para saber si está dispuesto a corregir tus prácticas ba
 # Otras recomendaciones
 
 Nunca uses `system("pause");` en tu código. El uso de `system()` hace que tu código deje inmediatamente de ser multiplataforma.
+
+Una posible alternativa es que uses la función `getchar()` de la librería estándar de Entrada/Salida `<iostream>`; no obstante, ésta no muestra el mensaje "Presiona una tecla para continuar" y únicamente cerrará el programa presionando la tecla <kbd>Enter</kbd>.
+
+Mira [esta](https://stackoverflow.com/questions/1449324/how-to-simulate-press-any-key-to-continue) o [esta](https://stackoverflow.com/questions/21257544/c-wait-for-user-input) pregunta en stackoverflow para más información.
